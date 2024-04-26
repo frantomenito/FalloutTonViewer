@@ -18,7 +18,6 @@
 		48EB7AB32BC73A9400BEE375 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EB7AB22BC73A9400BEE375 /* FilterView.swift */; };
 		48EB7AB52BC73B3200BEE375 /* WaveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EB7AB42BC73B3200BEE375 /* WaveShape.swift */; };
 		48EB7AB72BCC5A2D00BEE375 /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EB7AB62BCC5A2D00BEE375 /* WaveView.swift */; };
-		48EB7AB92BCC74CE00BEE375 /* SlidableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EB7AB82BCC74CE00BEE375 /* SlidableText.swift */; };
 		48EB7ABB2BCC7FBF00BEE375 /* CryptoPricesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EB7ABA2BCC7FBE00BEE375 /* CryptoPricesModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +34,6 @@
 		48EB7AB22BC73A9400BEE375 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
 		48EB7AB42BC73B3200BEE375 /* WaveShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveShape.swift; sourceTree = "<group>"; };
 		48EB7AB62BCC5A2D00BEE375 /* WaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveView.swift; sourceTree = "<group>"; };
-		48EB7AB82BCC74CE00BEE375 /* SlidableText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidableText.swift; sourceTree = "<group>"; };
 		48EB7ABA2BCC7FBE00BEE375 /* CryptoPricesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoPricesModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -53,8 +51,6 @@
 		48EB7A982BC7266900BEE375 = {
 			isa = PBXGroup;
 			children = (
-				48B674EA2BD1137E00BE1A82 /* StatusBar.swift */,
-				48B674EC2BD1146A00BE1A82 /* NetworkMonitor.swift */,
 				48EB7AA32BC7266900BEE375 /* Fallout */,
 				48EB7AA22BC7266900BEE375 /* Products */,
 			);
@@ -74,7 +70,8 @@
 				48EB7AA42BC7266900BEE375 /* FalloutApp.swift */,
 				48EB7AA62BC7266900BEE375 /* ContentView.swift */,
 				48B674EE2BD11B9200BE1A82 /* PeriodButton.swift */,
-				48EB7AB82BCC74CE00BEE375 /* SlidableText.swift */,
+				48B674EC2BD1146A00BE1A82 /* NetworkMonitor.swift */,
+				48B674EA2BD1137E00BE1A82 /* StatusBar.swift */,
 				48EB7ABA2BCC7FBE00BEE375 /* CryptoPricesModel.swift */,
 				48EB7AB62BCC5A2D00BEE375 /* WaveView.swift */,
 				48EB7AB42BC73B3200BEE375 /* WaveShape.swift */,
@@ -164,7 +161,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48EB7AB92BCC74CE00BEE375 /* SlidableText.swift in Sources */,
 				48EB7AA72BC7266900BEE375 /* ContentView.swift in Sources */,
 				48EB7AB72BCC5A2D00BEE375 /* WaveView.swift in Sources */,
 				48B674EB2BD1137E00BE1A82 /* StatusBar.swift in Sources */,
